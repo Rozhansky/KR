@@ -1,0 +1,12 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Edit request{% endblock %}
+
+{% block body %}
+    <div class="col-md-5 col-md-offset-1">
+        <h1>Edit work request</h1>
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
